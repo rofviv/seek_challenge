@@ -1,0 +1,47 @@
+name: seek_challenge
+description: "A new Flutter project."
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  bloc: ^9.0.0
+  cupertino_icons: ^1.0.8
+  equatable: ^2.0.7
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.0.0
+  flutter_modular: ^6.3.3
+  flutter_native_splash: ^2.4.4
+  mobile_scanner: ^6.0.6
+  overlay_support: ^2.1.0
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.3
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+  pigeon: ^24.2.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/sounds/
+
+# dart run flutter_launcher_icons
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/logo.png"
+
+# dart run flutter_native_splash:create
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/images/logo.png
+  android_12:
+    image: assets/images/logo.png
+    icon_background_color: "#FFFFFF"
