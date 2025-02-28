@@ -25,6 +25,7 @@ BLoC 9.0.0
 ### Platform
 
 Released only Android
+[![Download APK](https://img.shields.io/badge/Download-APK-green.svg?style=for-the-badge&logo=android)](https://github.com/rofviv/seek_challenge/raw/refs/heads/master/app-release.apk)
 
 ### Launch the app in developer mode
 
